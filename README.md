@@ -1,6 +1,7 @@
 # Eukaryotic Horizontal Transfer
 
 Code used to infer and filter horizontal transfer events involving L1 and BovB retrotransposons in eukaryotes. 
+
 Also available on Zenodo:
 
 Atma M Ivancevic. (2018, May 15). AdelaideBioinfo/horizontalTransfer: First release of horizontal transfer code (Version v1.0.0). Zenodo. http://doi.org/10.5281/zenodo.1246999
