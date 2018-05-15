@@ -1,0 +1,84 @@
+\documentclass[12pt,a4paper,times]{article}
+\usepackage[latin1]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{multirow}
+\usepackage[font={footnotesize}]{caption}
+\usepackage[colorlinks=true,citecolor=blue,linkcolor=blue]{hyperref}
+\usepackage{microtype}
+\usepackage{rotating}
+\usepackage{longtable}
+\usepackage{xcolor}
+\usepackage{float}
+\usepackage{subfloat}
+\usepackage{titletoc}
+
+\usepackage{array}
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+% Defines a table column type where the text wraps around, is raggedright and allows manual line breaks (\newline)
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+% Defines a column type where the text wraps around, is centered and allows manual line breaks
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+% Defines a column type where the text wraps around, is raggedleft and allows manual line breaks
+
+\colorlet{red}{red}
+
+\newcommand{\beginsupplement}{%
+	\setcounter{table}{0}
+	\renewcommand{\thetable}{S\arabic{table}}%
+	\setcounter{figure}{0}
+	\renewcommand{\thefigure}{S\arabic{figure}}%
+}
+
+%\usepackage[margin=0.75in]{geometry}
+%\textwidth=14cm \oddsidemargin=1cm
+\addtolength{\oddsidemargin}{-.875in}
+\addtolength{\evensidemargin}{-.875in}
+\addtolength{\textwidth}{1.75in}
+
+\addtolength{\topmargin}{-.875in}
+\addtolength{\textheight}{1.75in}
+
+\linespread{1.2}
+\hyphenpenalty=2000
+
+\renewcommand{\contentsname}{Supplementary Tables}
+
+\begin{document}
+	
+\beginsupplement
+	\tableofcontents
+	
+	\newpage 
+
+\section*{Table S1: Our dataset of public domain genomes}
+\addcontentsline{toc}{section}{Table S1: Our dataset of public domain genomes}
+\input{genomicDataset.tex}
+
+\section*{Table S2: L1s in genomic data}
+\addcontentsline{toc}{section}{Table S2: L1s in genomic data}
+\input{L1.tex}
+
+\section*{Table S3: BovBs in genomic data}
+\addcontentsline{toc}{section}{Table S3: BovBs in genomic data}
+\input{BovB.tex}
+
+
+\section*{Table S4: Genome coverage of L1 and BovB elements}
+\addcontentsline{toc}{section}{Table S4: Genome coverage of L1 and BovB elements}
+\input{genomecoverage.tex}
+
+
+\section*{Table S5: BovB HT candidate clusters}
+\addcontentsline{toc}{section}{Table S5: BovB HT candidate clusters}
+\input{BovBhtfamilies.tex}
+\clearpage
+
+\section*{Table S6: L1 HT candidate clusters}
+\addcontentsline{toc}{section}{Table S6: L1 HT candidate clusters}
+\input{L1htfamilies.tex}
+\clearpage
+	
+\end{document}

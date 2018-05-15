@@ -1,0 +1,601 @@
+
+%\begin{center}
+\vspace{-5mm}
+{\footnotesize
+\begin{longtable}{| L{4cm} | L{2.7cm}  | L{3.7cm} | L{3.7cm} |} 
+\caption{\footnotesize
+	Shows the calculations used to generate the bargraph in Fig 1 of the manuscript. 
+	BovB and L1 base counts are primarily based on full-length elements.
+	Species that don't have L1s nor BovBs are not listed. \label{table:genomecoverage}} \\
+
+\hline \textbf{Species} & \textbf{Genome base count} & \textbf{BovB base count, percentage of genome} & \textbf{L1 base count, percentage of genome} \\ \hline 
+\endfirsthead % the caption and label will only appear on the first page
+
+\hline \textbf{Species} & \textbf{Genome base count} & \textbf{BovB base count, percentage of genome} & \textbf{L1 base count, percentage of genome} \\ \hline
+\endhead % this header will appear on every page
+
+\hline \hline
+\multicolumn{4}{|l|}{\textbf{MAMMALIA}} \\ \hline
+\textit{Tachyglossus aculeatus} & 2020007912 & 1452458, 0.0719036\% & 0, 0\% \\ \hline
+\textit{Ornithorhynchus anatinus} & 1996811212 & 1830086, 0.0916504\% & 0, 0\% \\ \hline
+\textit{Monodelphis domestica} & 3605631728 & 3273062, 0.0907764\% & 291203623, 8.07636\% \\ \hline
+\textit{Macropus eugenii} & 3075184024 & 1715506, 0.0557855\% & 77958311, 2.53508\% \\ \hline
+\textit{Sarcophilus harrisii} & 3174693010 & 3031341, 0.0954845\% & 95592375, 3.01107\% \\ \hline
+\textit{Dasypus novemcinctus} & 3631505655 & 0, 0\% & 257879875, 7.10118\% \\ \hline
+\textit{Choloepus hoffmanni} & 2458927620 & 0, 0\% & 145367124, 5.91181\% \\ \hline
+\textit{Chrysochloris asiatica} & 4210093806 & 108751003, 2.5831\% & 108660240, 2.58095\% \\ \hline
+\textit{Echinops telfairi} & 2947007737 & 20606032, 0.699219\% & 53945548, 1.83052\% \\ \hline
+\textit{Orycteropus afer} & 4444063711 & 102512334, 2.30673\% & 196663330, 4.4253\% \\ \hline
+\textit{Elephantulus edwardii} & 3843982861 & 161028145, 4.1891\% & 161200386, 4.19358\% \\ \hline
+\textit{Trichechus manatus} & 3103791524 & 27624301, 0.890018\% & 198750171, 6.40346\% \\ \hline
+\textit{Procavia capensis} & 2985258999 & 19116374, 0.640359\% & 177090807, 5.93218\% \\ \hline
+\textit{Loxodonta africana} & 3271792967 & 34432824, 1.05241\% & 313797498, 9.59099\% \\ \hline
+\textit{Erinaceus europaeus} & 2715703478 & 0, 0\% & 80293621, 2.95664\% \\ \hline
+\textit{Sorex araneus} & 2423158183 & 0, 0\% & 79834929, 3.29466\% \\ \hline
+\textit{Condylura cristata} & 1769662895 & 0, 0\% & 42147711, 2.38168\% \\ \hline
+\textit{Pteropus alecto} & 1985958707 & 112864, 0.0056831\% & 109229895, 5.50011\% \\ \hline
+\textit{Pteropus vampyrus} & 1996076410 & 79090, 0.00396227\% & 67971403, 3.40525\% \\ \hline
+\textit{Eidolon helvum} & 1837754460 & 100637, 0.00547609\% & 50920531, 2.7708\% \\ \hline
+\textit{Megaderma lyra} & 1735931796 & 72504, 0.00417666\% & 43660935, 2.51513\% \\ \hline
+\textit{Rhinolophus ferrumequinum} & 1926439238 & 119310, 0.00619329\% & 50326653, 2.61242\% \\ \hline
+\textit{Pteronotus parnellii} & 1960317893 & 78360, 0.00399731\% & 56150083, 2.86434\% \\ \hline
+\textit{Eptesicus fuscus} & 2026629342 & 58336, 0.00287847\% & 59441803, 2.93304\% \\ \hline
+\textit{Myotis brandtii} & 2107242811 & 84290, 0.00400001\% & 72446482, 3.43798\% \\ \hline
+\textit{Myotis davidii} & 2059799708 & 71276, 0.00346034\% & 51012406, 2.47657\% \\ \hline
+\textit{Myotis lucifugus} & 2034575300 & 87666, 0.00430881\% & 84847408, 4.17028\% \\ \hline
+\textit{Ceratotherium simum simum} & 2464350348 & 292804, 0.0118816\% & 160676871, 6.52005\% \\ \hline
+\textit{Equus przewalskii} & 2395937679 & 247857, 0.0103449\% & 135134972, 5.64017\% \\ \hline
+\textit{Equus caballus Thoroughbred} & 2484532062 & 223242, 0.00898527\% & 191150416, 7.69362\% \\ \hline
+\textit{Equus caballus Mongolian} & 2377506909 & 265688, 0.0111751\% & 123172165, 5.18073\% \\ \hline
+\textit{Manis pentadactyla} & 2204732179 & 0, 0\% & 112483171, 5.1019\% \\ \hline
+\textit{Felis catus} & 2455541136 & 0, 0\% & 163774030, 6.66957\% \\ \hline
+\textit{Panthera tigris altaica} & 2391065193 & 0, 0\% & 155431501, 6.50051\% \\ \hline
+\textit{Canis lupus familiaris} & 2410960148 & 0, 0\% & 163347315, 6.7752\% \\ \hline
+\textit{Ursus maritimus} & 2301362327 & 0, 0\% & 154988843, 6.73466\% \\ \hline
+\textit{Ailuropoda melanoleuca} & 2299509015 & 0, 0\% & 105301329, 4.5793\% \\ \hline
+\textit{Leptonychotes weddellii} & 3156886159 & 0, 0\% & 112493456, 3.56343\% \\ \hline
+\textit{Odobenus rosmarus divergens} & 2400133628 & 0, 0\% & 137079744, 5.71134\% \\ \hline
+\textit{Mustela putorius furo} & 2410863155 & 0, 0\% & 143960591, 5.97133\% \\ \hline
+\textit{Camelus dromedarius} & 2004047047 & 0, 0\% & 101966754, 5.08804\% \\ \hline
+\textit{Camelus ferus} & 2009177929 & 0, 0\% & 86491041, 4.3048\% \\ \hline
+\textit{Vicugna pacos} & 2172191320 & 0, 0\% & 113049718, 5.20441\% \\ \hline
+\textit{Sus scrofa Duroc} & 2808509378 & 0, 0\% & 176658966, 6.29013\% \\ \hline
+\textit{Sus scrofa Tibetan} & 2489155924 & 0, 0\% & 134715498, 5.4121\% \\ \hline
+\textit{Sus scrofa Ellegaard Gottingen} & 2358017222 & 0, 0\% & 117750484, 4.99362\% \\ \hline
+\textit{Balaenoptera acutorostrata scammoni} & 2431671281 & 0, 0\% & 190619715, 7.83904\% \\ \hline
+\textit{Physeter catodon} & 2280711356 & 0, 0\% & 146560263, 6.42608\% \\ \hline
+\textit{Lipotes vexillifer} & 2429195737 & 0, 0\% & 271942192, 11.1947\% \\ \hline
+\textit{Tursiops truncatus} & 2551401796 & 0, 0\% & 119886176, 4.69884\% \\ \hline
+\textit{Orcinus orca} & 2372903489 & 0, 0\% & 205346717, 8.65382\% \\ \hline
+\textit{Pantholops hodgsonii} & 2696869832 & 200623622, 7.43913\% & 90462265, 3.35434\% \\ \hline
+\textit{Capra hircus} & 2635832257 & 225462902, 8.55377\% & 95239112, 3.61325\% \\ \hline
+\textit{Ovis aries Texel} & 2619054388 & 249955158, 9.54372\% & 108872698, 4.15695\% \\ \hline
+\textit{Ovis aries musimon} & 2589834840 & 200496380, 7.74167\% & 71959650, 2.77854\% \\ \hline
+\textit{Bubalus bubalis} & 2836150610 & 286296759, 10.0946\% & 104875469, 3.69781\% \\ \hline
+\textit{Bison bison bison} & 2953606000 & 315448446, 10.6801\% & 127745325, 4.32506\% \\ \hline
+\textit{Bos mutus} & 2645145588 & 217297691, 8.21496\% & 82289329, 3.11096\% \\ \hline
+\textit{Bos indicus} & 2673949103 & 287691777, 10.7591\% & 110741149, 4.14148\% \\ \hline
+\textit{Bos taurus} & 2670422299 & 309871737, 11.6038\% & 126156398, 4.72421\% \\ \hline
+\textit{Ochotona princeps} & 2229824103 & 0, 0\% & 34195120, 1.53353\% \\ \hline
+\textit{Oryctolagus cuniculus} & 2737490501 & 0, 0\% & 139192850, 5.08469\% \\ \hline
+\textit{Ictidomys tridecemlineatus} & 2478393770 & 0, 0\% & 107499669, 4.33747\% \\ \hline
+\textit{Heterocephalus glaber} & 2618188253 & 0, 0\% & 155993240, 5.95806\% \\ \hline
+\textit{Fukomys damarensis} & 2333892479 & 0, 0\% & 161817287, 6.93337\% \\ \hline
+\textit{Cavia aperea} & 2716396567 & 0, 0\% & 136757020, 5.0345\% \\ \hline
+\textit{Cavia porcellus} & 2723219641 & 0, 0\% & 235803425, 8.65899\% \\ \hline
+\textit{Chinchilla lanigera} & 2390852391 & 0, 0\% & 128385455, 5.36986\% \\ \hline
+\textit{Octodon degus} & 2995872505 & 0, 0\% & 138452612, 4.62145\% \\ \hline
+\textit{Dipodomys ordii} & 2158502098 & 0, 0\% & 34330234, 1.59047\% \\ \hline
+\textit{Jaculus jaculus} & 2835233679 & 0, 0\% & 96017503, 3.38658\% \\ \hline
+\textit{Nannospalax galili} & 3061408210 & 0, 0\% & 136788334, 4.46815\% \\ \hline
+\textit{Mesocricetus auratus} & 2504908775 & 0, 0\% & 80503182, 3.21382\% \\ \hline
+\textit{Cricetulus griseus} & 2399770464 & 0, 0\% & 79279532, 3.30363\% \\ \hline
+\textit{Microtus ochrogaster} & 2287340943 & 0, 0\% & 52224812, 2.28321\% \\ \hline
+\textit{Peromyscus maniculatus bairdii} & 2630541020 & 0, 0\% & 53188010, 2.02194\% \\ \hline
+\textit{Rattus norvegicus} & 2909682625 & 0, 0\% & 207049946, 7.11589\% \\ \hline
+\textit{Mus musculus} & 2730855475 & 0, 0\% & 231145319, 8.46421\% \\ \hline
+\textit{Tupaia belangeri} & 3660774957 & 0, 0\% & 51474914, 1.40612\% \\ \hline
+\textit{Tupaia chinensis} & 2846580235 & 0, 0\% & 89655790, 3.1496\% \\ \hline
+\textit{Galeopterus variegatus} & 3187643824 & 0, 0\% & 139985621, 4.39151\% \\ \hline
+\textit{Otolemur garnettii} & 2519724550 & 0, 0\% & 146546821, 5.81599\% \\ \hline
+\textit{Microcebus murinus} & 2902270736 & 0, 0\% & 68180677, 2.34922\% \\ \hline
+\textit{Tarsius syrichta} & 3453847770 & 0, 0\% & 240202647, 6.95464\% \\ \hline
+\textit{Callithrix jacchus} & 2914958544 & 0, 0\% & 246251310, 8.44785\% \\ \hline
+\textit{Saimiri boliviensis} & 2608572064 & 0, 0\% & 179339572, 6.87501\% \\ \hline
+\textit{Rhinopithecus roxellana} & 2899535590 & 0, 0\% & 207691102, 7.16291\% \\ \hline
+\textit{Nasalis larvatus} & 3011966170 & 0, 0\% & 154710505, 5.13653\% \\ \hline
+\textit{Chlorocebus sabaeus} & 2789639778 & 0, 0\% & 204188513, 7.31953\% \\ \hline
+\textit{Macaca fascicularis} & 2946827162 & 0, 0\% & 224863209, 7.63069\% \\ \hline
+\textit{Macaca mulatta} & 2969988180 & 0, 0\% & 154566974, 5.2043\% \\ \hline
+\textit{Papio anubis} & 2948380710 & 0, 0\% & 223973218, 7.59648\% \\ \hline
+\textit{Nomascus leucogenys} & 2962077449 & 0, 0\% & 230918510, 7.79583\% \\ \hline
+\textit{Pongo abelii} & 3441227734 & 0, 0\% & 263895353, 7.66864\% \\ \hline
+\textit{Gorilla gorilla} & 3029537234 & 0, 0\% & 212654289, 7.01937\% \\ \hline
+\textit{Pan paniscus} & 2869173508 & 0, 0\% & 241958348, 8.43303\% \\ \hline
+\textit{Pan troglodytes} & 3309577922 & 0, 0\% & 243238952, 7.34955\% \\ \hline
+\textit{Homo sapiens} & 3101788170 & 0, 0\% & 247845149, 7.9904\% \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{SAUROPSIDA}} \\ \hline
+\textit{Apalone spinifera} & 1931078847 & 0, 0\% & 1378934, 0.0714074\% \\ \hline
+\textit{Pelodiscus sinensis} & 2202466388 & 0, 0\% & 1581495, 0.0718056\% \\ \hline
+\textit{Chelonia mydas} & 2208393880 & 0, 0\% & 4027549, 0.182375\% \\ \hline
+\textit{Chrysemys picta bellii} & 2365749696 & 0, 0\% & 3441306, 0.145464\% \\ \hline
+\textit{Struthio camelus australis} & 1225025301 & 0, 0\% & 23472, 0.00191604\% \\ \hline
+\textit{Tinamus guttatus} & 1047056493 & 0, 0\% & 8938, 0.000853631\% \\ \hline
+\textit{Anas platyrhynchos} & 1105035747 & 0, 0\% & 21072, 0.00190691\% \\ \hline
+\textit{Lyrurus tetrix} & 657025294 & 0, 0\% & 6332, 0.000963738\% \\ \hline
+\textit{Gallus gallus} & 1046932099 & 0, 0\% & 9721, 0.000928522\% \\ \hline
+\textit{Coturnix japonica} & 531959683 & 0, 0\% & 2234, 0.000419957\% \\ \hline
+\textit{Meleagris gallopavo} & 1061817101 & 0, 0\% & 6761, 0.000636739\% \\ \hline
+\textit{Colinus virginianus} & 1171855925 & 0, 0\% & 62926, 0.00536977\% \\ \hline
+\textit{Acanthisitta chloris} & 1035876403 & 0, 0\% & 25733, 0.00248418\% \\ \hline
+\textit{Manacus vitellinus} & 1145871783 & 0, 0\% & 19832, 0.00173073\% \\ \hline
+\textit{Zonotrichia albicollis} & 1052600561 & 0, 0\% & 12478, 0.00118544\% \\ \hline
+\textit{Geospiza fortis} & 1065292181 & 0, 0\% & 16040, 0.00150569\% \\ \hline
+\textit{Serinus canaria} & 1152083301 & 0, 0\% & 59037, 0.00512437\% \\ \hline
+\textit{Taeniopygia guttata} & 1233186341 & 0, 0\% & 15804, 0.00128156\% \\ \hline
+\textit{Ficedula albicollis} & 1118326800 & 0, 0\% & 16340, 0.00146111\% \\ \hline
+\textit{Pseudopodoces humilis} & 1042980823 & 0, 0\% & 18864, 0.00180866\% \\ \hline
+\textit{Corvus brachyrhynchos} & 1091312783 & 0, 0\% & 23878, 0.00218801\% \\ \hline
+\textit{Corvus cornix cornix} & 1049947905 & 0, 0\% & 20517, 0.0019541\% \\ \hline
+\textit{Ara macao} & 1204683257 & 0, 0\% & 18584, 0.00154265\% \\ \hline
+\textit{Amazona vittata} & 1175404042 & 0, 0\% & 23188, 0.00197277\% \\ \hline
+\textit{Melopsittacus undulatus} & 1117373619 & 0, 0\% & 20189, 0.00180683\% \\ \hline
+\textit{Nestor notabilis} & 1053559886 & 0, 0\% & 26182, 0.0024851\% \\ \hline
+\textit{Falco cherrug} & 1174811715 & 0, 0\% & 27430, 0.00233484\% \\ \hline
+\textit{Falco peregrinus} & 1171955363 & 0, 0\% & 26702, 0.00227841\% \\ \hline
+\textit{Cariama cristata} & 1132245425 & 0, 0\% & 34112, 0.00301277\% \\ \hline
+\textit{Merops nubicus} & 1062961556 & 0, 0\% & 23329, 0.00219472\% \\ \hline
+\textit{Picoides pubescens} & 1167323935 & 0, 0\% & 9100, 0.000779561\% \\ \hline
+\textit{Buceros rhinoceros silvestris} & 1065782791 & 0, 0\% & 18845, 0.00176818\% \\ \hline
+\textit{Apaloderma vittatum} & 1070836417 & 0, 0\% & 24052, 0.00224609\% \\ \hline
+\textit{Leptosomus discolor} & 1136244952 & 0, 0\% & 23034, 0.0020272\% \\ \hline
+\textit{Haliaeetus albicilla} & 1133549865 & 0, 0\% & 35410, 0.00312381\% \\ \hline
+\textit{Haliaeetus leucocephalus} & 1178409481 & 0, 0\% & 35701, 0.00302959\% \\ \hline
+\textit{Aquila chrysaetos canadensis} & 1192725744 & 0, 0\% & 33910, 0.00284307\% \\ \hline
+\textit{Cathartes aura} & 1152571117 & 0, 0\% & 38120, 0.00330739\% \\ \hline
+\textit{Tyto alba} & 1120143088 & 0, 0\% & 38958, 0.00347795\% \\ \hline
+\textit{Colius striatus} & 1075931597 & 0, 0\% & 24811, 0.002306\% \\ \hline
+\textit{Charadrius vociferus} & 1219859583 & 0, 0\% & 33056, 0.00270982\% \\ \hline
+\textit{Balearica regulorum gibbericeps} & 1127605500 & 0, 0\% & 35488, 0.0031472\% \\ \hline
+\textit{Chlamydotis macqueenii} & 1086566339 & 0, 0\% & 31476, 0.00289683\% \\ \hline
+\textit{Cuculus canorus} & 1153894225 & 0, 0\% & 19702, 0.00170744\% \\ \hline
+\textit{Fulmarus glacialis} & 1141395646 & 0, 0\% & 35689, 0.00312679\% \\ \hline
+\textit{Aptenodytes forsteri} & 1254347440 & 0, 0\% & 43865, 0.00349704\% \\ \hline
+\textit{Pygoscelis adeliae} & 1216600033 & 0, 0\% & 43236, 0.00355384\% \\ \hline
+\textit{Phalacrocorax carbo} & 1138967842 & 0, 0\% & 29871, 0.00262264\% \\ \hline
+\textit{Pelecanus crispus} & 1160924693 & 0, 0\% & 34119, 0.00293895\% \\ \hline
+\textit{Nipponia nippon} & 1223846297 & 0, 0\% & 37927, 0.003099\% \\ \hline
+\textit{Egretta garzetta} & 1206484573 & 0, 0\% & 36603, 0.00303386\% \\ \hline
+\textit{Gavia stellata} & 1129677294 & 0, 0\% & 38510, 0.00340894\% \\ \hline
+\textit{Tauraco erythrolophus} & 1155540733 & 0, 0\% & 27530, 0.00238243\% \\ \hline
+\textit{Opisthocomus hoazin} & 1203712246 & 0, 0\% & 45662, 0.00379343\% \\ \hline
+\textit{Columba livia} & 1107971856 & 0, 0\% & 28752, 0.00259501\% \\ \hline
+\textit{Pterocles gutturalis} & 1069324295 & 0, 0\% & 32937, 0.00308017\% \\ \hline
+\textit{Phaethon lepturus} & 1152958507 & 0, 0\% & 29672, 0.00257355\% \\ \hline
+\textit{Calypte anna} & 1105676412 & 0, 0\% & 17154, 0.00155145\% \\ \hline
+\textit{Chaetura pelagica} & 1119188094 & 0, 0\% & 16739, 0.00149564\% \\ \hline
+\textit{Caprimulgus carolinensis} & 1119683066 & 0, 0\% & 32635, 0.00291466\% \\ \hline
+\textit{Eurypyga helias} & 1088019637 & 0, 0\% & 20244, 0.00186063\% \\ \hline
+\textit{Mesitornis unicolor} & 1087290853 & 0, 0\% & 22907, 0.0021068\% \\ \hline
+\textit{Podiceps cristatus} & 1134922578 & 0, 0\% & 23144, 0.00203926\% \\ \hline
+\textit{Phoenicopterus ruber} & 1132184511 & 0, 0\% & 38050, 0.00336076\% \\ \hline
+\textit{Alligator mississippiensis} & 2174259888 & 0, 0\% & 5988372, 0.275421\% \\ \hline
+\textit{Alligator sinensis} & 2270550999 & 0, 0\% & 6999721, 0.308283\% \\ \hline
+\textit{Crocodylus porosus} & 2120573303 & 0, 0\% & 4601841, 0.217009\% \\ \hline
+\textit{Gavialis gangeticus} & 2188353730 & 0, 0\% & 4914507, 0.224576\% \\ \hline
+\textit{Pogona vitticeps} & 1816116151 & 34892879, 1.92129\% & 3992505, 0.219838\% \\ \hline
+\textit{Anolis carolinensis} & 1799143587 & 10307612, 0.572918\% & 13231926, 0.735457\% \\ \hline
+\textit{Vipera berus berus} & 1532390814 & 5053647, 0.329788\% & 4980408, 0.325009\% \\ \hline
+\textit{Crotalus mitchellii pyrrhus} & 1126791715 & 827313, 0.073422\% & 1914415, 0.1699\% \\ \hline
+\textit{Ophiophagus hannah} & 1594074654 & 1525335, 0.0956878\% & 6627163, 0.415737\% \\ \hline
+\textit{Python bivittatus} & 1435034535 & 3932416, 0.274029\% & 3913976, 0.272744\% \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{AMPHIBIA}} \\ \hline
+\textit{Xenopus tropicalis} & 1437513269 & 22381, 0.00155692\% & 10038037, 0.698292\% \\ \hline
+\textit{Xenopus laevis} & 2718416252 & 24071, 0.000885479\% & 23728273, 0.872871\% \\ \hline
+\textit{Nanorana parkeri} & 2053849526 & 39534, 0.00192487\% & 20631712, 1.00454\% \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{NEOPTERYGII}} \\ \hline
+\textit{Lepisosteus oculatus} & 945861706 & 74445, 0.0078706\% & 805428, 0.0851528\% \\ \hline
+\textit{Anguilla anguilla} & 1018701900 & 0, 0\% & 1178915, 0.115727\% \\ \hline
+\textit{Anguilla japonica} & 1151120721 & 0, 0\% & 1520279, 0.132069\% \\ \hline
+\textit{Danio rerio} & 1412464843 & 20681, 0.00146418\% & 6341494, 0.448967\% \\ \hline
+\textit{Astyanax mexicanus} & 1191242572 & 0, 0\% & 655594, 0.0550345\% \\ \hline
+\textit{Oryzias latipes} & 869801494 & 0, 0\% & 3737740, 0.429723\% \\ \hline
+\textit{Poecilia formosa} & 748923461 & 0, 0\% & 1514195, 0.202183\% \\ \hline
+\textit{Xiphophorus maculatus} & 729647787 & 0, 0\% & 1081259, 0.148189\% \\ \hline
+\textit{Fundulus heteroclitus} & 1021882034 & 0, 0\% & 2463073, 0.241033\% \\ \hline
+\textit{Takifugu flavidus} & 378032400 & 0, 0\% & 587772, 0.155482\% \\ \hline
+\textit{Takifugu rubripes} & 391484715 & 0, 0\% & 683087, 0.174486\% \\ \hline
+\textit{Tetraodon nigroviridis} & 358618246 & 0, 0\% & 224868, 0.062704\% \\ \hline
+\textit{Cynoglossus semilaevis} & 470182763 & 6328, 0.00134586\% & 129721, 0.0275895\% \\ \hline
+\textit{Haplochromis burtoni} & 831411547 & 0, 0\% & 1596803, 0.192059\% \\ \hline
+\textit{Pundamilia nyererei} & 830133247 & 0, 0\% & 1663150, 0.200347\% \\ \hline
+\textit{Maylandia zebra} & 849595388 & 0, 0\% & 1930306, 0.227203\% \\ \hline
+\textit{Neolamprologus brichardi} & 847893845 & 0, 0\% & 1660506, 0.195839\% \\ \hline
+\textit{Oreochromis niloticus} & 927696114 & 12320, 0.00132802\% & 3182269, 0.343029\% \\ \hline
+\textit{Sebastes nigrocinctus} & 687549873 & 0, 0\% & 665754, 0.0968299\% \\ \hline
+\textit{Sebastes rubrivinctus} & 756296653 & 0, 0\% & 636171, 0.0841166\% \\ \hline
+\textit{Gasterosteus aculeatus} & 463354448 & 0, 0\% & 416171, 0.089817\% \\ \hline
+\textit{Gadus morhua} & 824327835 & 0, 0\% & 1086653, 0.131823\% \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{ECDYSOZOA}} \\ \hline
+\textit{Ephemera danica} & 475911277 & 6758, 0.00142001\% & 101494, 0.0213262\% \\ \hline
+\textit{Ladona fulva} & 1158111285 & 0, 0\% & 448102, 0.0386925\% \\ \hline
+\textit{Pediculus humanus corporis} & 110781312 & 0, 0\% & 33247, 0.0300114\% \\ \hline
+\textit{Frankliniella occidentalis} & 415781860 & 0, 0\% & 123702, 0.0297517\% \\ \hline
+\textit{Diaphorina citri} & 485705082 & 44563, 0.00917491\% & 521323, 0.107333\% \\ \hline
+\textit{Pachypsylla venusta} & 701763251 & 0, 0\% & 90121, 0.0128421\% \\ \hline
+\textit{Acyrthosiphon pisum} & 541675471 & 0, 0\% & 125434, 0.0231567\% \\ \hline
+\textit{Nilaparvata lugens} & 1140786310 & 150418, 0.0131855\% & 1477747, 0.129538\% \\ \hline
+\textit{Oncopeltus fasciatus} & 1098671531 & 0, 0\% & 98206, 0.129538\% \\ \hline
+\textit{Rhodnius prolixus} & 702645054 & 0, 0\% & 132347, 0.0188355\% \\ \hline
+\textit{Cimex lectularius} & 650477627 & 88661, 0.0136301\% & 312967, 0.0481134\% \\ \hline
+\textit{Onthophagus taurus} & 270533845 & 0, 0\% & 131103, 0.0484608\% \\ \hline
+\textit{Agrilus planipennis} & 353546665 & 0, 0\% & 102367, 0.0289543\% \\ \hline
+\textit{Tribolium castaneum} & 210248733 & 0, 0\% & 29847, 0.014196\% \\ \hline
+\textit{Anoplophora glabripennis} & 707712193 & 0, 0\% & 89797, 0.0126883\% \\ \hline
+\textit{Leptinotarsa decemlineata} & 1170241964 & 0, 0\% & 381273, 0.0325807\% \\ \hline
+\textit{Dendroctonus ponderosae} & 252847629 & 0, 0\% & 93067, 0.0368075\% \\ \hline
+\textit{Mengenilla moldrzyki} & 155727465 & 0, 0\% & 7178, 0.00460933\% \\ \hline
+\textit{Aedes aegypti} & 1383957531 & 0, 0\% & 5075165, 0.366714\% \\ \hline
+\textit{Culex quinquefasciatus} & 579042118 & 0, 0\% & 1308898, 0.226045\% \\ \hline
+\textit{Anopheles albimanus} & 170508315 & 0, 0\% & 20956, 0.0122903\% \\ \hline
+\textit{Anopheles arabiensis} & 246567867 & 0, 0\% & 100922, 0.0409307\% \\ \hline
+\textit{Anopheles atroparvus} & 224290125 & 0, 0\% & 128395, 0.0572451\% \\ \hline
+\textit{Anopheles christyi} & 172658580 & 0, 0\% & 60272, 0.0349082\% \\ \hline
+\textit{Anopheles culicifacies} & 202998806 & 0, 0\% & 142545, 0.0702196\% \\ \hline
+\textit{Anopheles darlingi} & 136935538 & 0, 0\% & 13318, 0.00972574\% \\ \hline
+\textit{Anopheles dirus} & 216307690 & 0, 0\% & 268454, 0.124107\% \\ \hline
+\textit{Anopheles epiroticus} & 223486714 & 0, 0\% & 123461, 0.0552431\% \\ \hline
+\textit{Anopheles farauti} & 183103254 & 0, 0\% & 275859, 0.150658\% \\ \hline
+\textit{Anopheles funestus} & 225223604 & 0, 0\% & 141113, 0.0626546\% \\ \hline
+\textit{Anopheles gambiae} & 287805703 & 0, 0\% & 259922, 0.0903116\% \\ \hline
+\textit{Anopheles maculatus} & 141894015 & 0, 0\% & 66565, 0.0469118\% \\ \hline
+\textit{Anopheles melas} & 224162116 & 0, 0\% & 66478, 0.0296562\% \\ \hline
+\textit{Anopheles merus} & 288048996 & 0, 0\% & 155301, 0.0539148\% \\ \hline
+\textit{Anopheles minimus} & 201793324 & 0, 0\% & 107274, 0.0531603\% \\ \hline
+\textit{Anopheles quadriannulatus} & 283828998 & 0, 0\% & 96223, 0.0339018\% \\ \hline
+\textit{Anopheles sinensis} & 220777669 & 0, 0\% & 86072, 0.0389858\% \\ \hline
+\textit{Anopheles stephensi} & 221324304 & 0, 0\% & 70137, 0.0316897\% \\ \hline
+\textit{Mayetiola destructor} & 185827756 & 0, 0\% & 25099, 0.0135066\% \\ \hline
+\textit{Lutzomyia longipalpis} & 154229266 & 0, 0\% & 11504, 0.00745903\% \\ \hline
+\textit{Phlebotomus papatasi} & 363767980 & 0, 0\% & 44465, 0.0122235\% \\ \hline
+\textit{Ceratitis capitata} & 484773492 & 0, 0\% & 62638, 0.0129211\% \\ \hline
+\textit{Drosophila albomicans} & 253560284 & 0, 0\% & 12982, 0.00511989\% \\ \hline
+\textit{Drosophila ananassae} & 230993012 & 0, 0\% & 6612, 0.00286242\% \\ \hline
+\textit{Drosophila biarmipes} & 169378599 & 0, 0\% & 9683, 0.00571678\% \\ \hline
+\textit{Drosophila bipectinata} & 167263958 & 0, 0\% & 10275, 0.00614299\% \\ \hline
+\textit{Drosophila elegans} & 171267669 & 0, 0\% & 7777, 0.00454085\% \\ \hline
+\textit{Drosophila erecta} & 152712140 & 0, 0\% & 6451, 0.00422429\% \\ \hline
+\textit{Drosophila eugracilis} & 156942009 & 0, 0\% & 8434, 0.00537396\% \\ \hline
+\textit{Drosophila ficusphila} & 152439475 & 0, 0\% & 84442, 0.0553938\% \\ \hline
+\textit{Drosophila grimshawi} & 200467819 & 0, 0\% & 13335, 0.00665194\% \\ \hline
+\textit{Drosophila kikkawai} & 164292578 & 0, 0\% & 12034, 0.00732474\% \\ \hline
+\textit{Drosophila melanogaster} & 143706478 & 0, 0\% & 4915, 0.00342017\% \\ \hline
+\textit{Drosophila miranda} & 136728780 & 0, 0\% & 10424, 0.00762385\% \\ \hline
+\textit{Drosophila mojavensis} & 193826310 & 0, 0\% & 35669, 0.0184026\% \\ \hline
+\textit{Drosophila persimilis} & 188374079 & 0, 0\% & 7072, 0.00375423\% \\ \hline
+\textit{Drosophila pseudoobscura pseudoobscura} & 152696384 & 0, 0\% & 7046, 0.00461439\% \\ \hline
+\textit{Drosophila rhopaloa} & 197375704 & 0, 0\% & 4465, 0.00226218\% \\ \hline
+\textit{Drosophila sechellia} & 166577145 & 0, 0\% & 4293, 0.00257718\% \\ \hline
+\textit{Drosophila simulans} & 137828247 & 0, 0\% & 3689, 0.00267652\% \\ \hline
+\textit{Drosophila suzukii} & 232923092 & 0, 0\% & 18122, 0.00778025\% \\ \hline
+\textit{Drosophila takahashii} & 182106768 & 0, 0\% & 7223, 0.00396635\% \\ \hline
+\textit{Drosophila virilis} & 206026697 & 0, 0\% & 15396, 0.00747282\% \\ \hline
+\textit{Drosophila willistoni} & 235516348 & 0, 0\% & 8718, 0.00370165\% \\ \hline
+\textit{Drosophila yakuba} & 165693946 & 0, 0\% & 7898, 0.00476662\% \\ \hline
+\textit{Musca domestica} & 750403944 & 0, 0\% & 65208, 0.00868972\% \\ \hline
+\textit{Glossina austeni} & 370264922 & 0, 0\% & 47253, 0.0127619\% \\ \hline
+\textit{Glossina brevipalpis} & 315360362 & 0, 0\% & 59919, 0.0190002\% \\ \hline
+\textit{Glossina fuscipes fuscipes} & 374774708 & 0, 0\% & 49182, 0.0131231\% \\ \hline
+\textit{Glossina morsitans morsitans} & 363107242 & 0, 0\% & 48753, 0.0134266\% \\ \hline
+\textit{Glossina pallidipes} & 357332231 & 0, 0\% & 36772, 0.0102907\% \\ \hline
+\textit{Limnephilus lunatus} & 1345859447 & 0, 0\% & 43713, 0.00324796\% \\ \hline
+\textit{Papilio glaucus} & 374815656 & 179060, 0.0477728\% & 68581, 0.0182973\% \\ \hline
+\textit{Papilio polytes} & 227005758 & 0, 0\% & 10239, 0.00451046\% \\ \hline
+\textit{Papilio xuthus} & 243890167 & 0, 0\% & 33700, 0.0138177\% \\ \hline
+\textit{Heliconius melpomene} & 273786188 & 10600, 0.00387163\% & 5968, 0.0021798\% \\ \hline
+\textit{Melitaea cinxia} & 389892349 & 0, 0\% & 13137, 0.00336939\% \\ \hline
+\textit{Danaus plexippus} & 272853388 & 20020, 0.00733727\% & 18718, 0.00686009\% \\ \hline
+\textit{Bombyx mori} & 481803763 & 435424, 0.0903737\% & 1615213, 0.335243\% \\ \hline
+\textit{Manduca sexta} & 419412261 & 31594, 0.00753292\% & 26668, 0.00635842\% \\ \hline
+\textit{Plutella xylostella} & 393454548 & 28327, 0.00719956\% & 209156, 0.0531589\% \\ \hline
+\textit{Athalia rosae} & 163837890 & 0, 0\% & 13934, 0.00850475\% \\ \hline
+\textit{Cephus cinctus} & 162226239 & 0, 0\% & 33326, 0.0205429\% \\ \hline
+\textit{Orussus abietinus} & 201220334 & 0, 0\% & 18324, 0.00910644\% \\ \hline
+\textit{Ceratosolen solmsi marchali} & 277059195 & 0, 0\% & 68603, 0.0247611\% \\ \hline
+\textit{Nasonia giraulti} & 283606953 & 0, 0\% & 17238, 0.00607813\% \\ \hline
+\textit{Nasonia longicornis} & 285726340 & 0, 0\% & 14085, 0.00492954\% \\ \hline
+\textit{Nasonia vitripennis} & 295780872 & 0, 0\% & 28451, 0.00961895\% \\ \hline
+\textit{Copidosoma floridanum} & 555044930 & 0, 0\% & 80844, 0.0145653\% \\ \hline
+\textit{Trichogramma pretiosum} & 196221301 & 0, 0\% & 37097, 0.0189057\% \\ \hline
+\textit{Microplitis demolitor} & 250525215 & 0, 0\% & 133621, 0.0533363\% \\ \hline
+\textit{Megachile rotundata} & 272660569 & 0, 0\% & 83736, 0.0307107\% \\ \hline
+\textit{Apis dorsata} & 230340171 & 0, 0\% & 11849, 0.00514413\% \\ \hline
+\textit{Apis florea} & 230467781 & 0, 0\% & 11235, 0.00487487\% \\ \hline
+\textit{Apis mellifera} & 250270657 & 0, 0\% & 12542, 0.00501137\% \\ \hline
+\textit{Bombus impatiens} & 249185056 & 0, 0\% & 43105, 0.0172984\% \\ \hline
+\textit{Bombus terrestris} & 248654244 & 0, 0\% & 20613, 0.00828982\% \\ \hline
+\textit{Linepithema humile} & 219500750 & 6510, 0.00296582\% & 34557, 0.0157435\% \\ \hline
+\textit{Camponotus floridanus} & 232685334 & 0, 0\% & 27476, 0.0118082\% \\ \hline
+\textit{Acromyrmex echinatior} & 295944863 & 0, 0\% & 21595, 0.00729697\% \\ \hline
+\textit{Atta cephalotes} & 317671980 & 0, 0\% & 14002, 0.00440769\% \\ \hline
+\textit{Solenopsis invicta} & 396009169 & 28437, 0.00718089\% & 31306, 0.00790537\% \\ \hline
+\textit{Pogonomyrmex barbatus} & 235645958 & 4063, 0.0017242\% & 10237, 0.00434423\% \\ \hline
+\textit{Harpegnathos saltator} & 294465601 & 0, 0\% & 78553, 0.0266765\% \\ \hline
+\textit{Cerapachys biroi} & 212825769 & 0, 0\% & 21905, 0.0102925\% \\ \hline
+\textit{Blattella germanica} & 2037201033 & 0, 0\% & 2091710, 0.102676\% \\ \hline
+\textit{Zootermopsis nevadensis} & 485009472 & 0, 0\% & 64328, 0.0132632\% \\ \hline
+\textit{Locusta migratoria} & 5759798599 & 2236765, 0.0388341\% & 7904827, 0.137241\% \\ \hline
+\textit{Daphnia pulex} & 197206209 & 0, 0\% & 270547, 0.13719\% \\ \hline
+\textit{Eurytemora affinis} & 494890867 & 0, 0\% & 290790, 0.0587584\% \\ \hline
+\textit{Lepeophtheirus salmonis} & 665129626 & 0, 0\% & 12393542, 1.86333\% \\ \hline
+\textit{Hyalella azteca} & 1178848281 & 0, 0\% & 100730, 0.00854478\% \\ \hline
+\textit{Strigamia maritima} & 176210797 & 0, 0\% & 64283, 0.0364807\% \\ \hline
+\textit{Stegodyphus mimosarum} & 2738704917 & 0, 0\% & 1142876, 0.0417305\% \\ \hline
+\textit{Latrodectus hesperus} & 1137104656 & 0, 0\% & 236269, 0.0207781\% \\ \hline
+\textit{Parasteatoda tepidariorum} & 1443909906 & 0, 0\% & 139984, 0.00969479\% \\ \hline
+\textit{Tetranychus urticae} & 90815494 & 0, 0\% & 34385, 0.0378625\% \\ \hline
+\textit{Dermatophagoides farinae} & 53545338 & 0, 0\% & 4466, 0.0083406\% \\ \hline
+\textit{Sarcoptes scabiei type canis} & 56262437 & 0, 0\% & 16880, 0.0300023\% \\ \hline
+\textit{Achipteria coleoptrata} & 88443889 & 0, 0\% & 9799, 0.0110793\% \\ \hline
+\textit{Hypochthonius rufulus} & 172365132 & 0, 0\% & 11855, 0.00687784\% \\ \hline
+\textit{Platynothrus peltifer} & 100532934 & 0, 0\% & 12889, 0.0128207\% \\ \hline
+\textit{Steganacarus magnus} & 113565242 & 0, 0\% & 20382, 0.0179474\% \\ \hline
+\textit{Ixodes ricinus} & 391986416 & 0, 0\% & 914108, 0.233199\% \\ \hline
+\textit{Ixodes scapularis} & 1765382190 & 0, 0\% & 2014997, 0.114139\% \\ \hline
+\textit{Rhipicephalus microplus} & 144692238 & 0, 0\% & 181040, 0.125121\% \\ \hline
+\textit{Metaseiulus occidentalis} & 151699350 & 0, 0\% & 72727, 0.0479415\% \\ \hline
+\textit{Varroa destructor} & 294133941 & 0, 0\% & 3597, 0.00122291\% \\ \hline
+\textit{Centruroides exilicauda} & 926399729 & 184507, 0.0199166\% & 855306, 0.0923258\% \\ \hline
+\textit{Mesobuthus martensii} & 925546267 & 524438, 0.0566625\% & 396089, 0.0427952\% \\ \hline
+\textit{Limulus polyphemus} & 1828256766 & 0, 0\% & 496277, 0.0271448\% \\ \hline
+\textit{Trichinella spiralis} & 63525422 & 0, 0\% & 8033, 0.0126453\% \\ \hline
+\textit{Ascaris suum} & 269559681 & 0, 0\% & 30473, 0.0113047\% \\ \hline
+\textit{Steinernema monticolum} & 89158954 & 0, 0\% & 17504, 0.0196324\% \\ \hline
+\textit{Panagrellus redivivus} & 65093147 & 0, 0\% & 13032, 0.0200205\% \\ \hline
+\textit{Haemonchus contortus} & 319757902 & 0, 0\% & 352460, 0.110227\% \\ \hline
+\textit{Necator americanus} & 244075060 & 0, 0\% & 29269, 0.0119918\% \\ \hline
+\textit{Heterorhabditis bacteriophora} & 76974349 & 0, 0\% & 244, 0.000316989\% \\ \hline
+\textit{Caenorhabditis angaria} & 79761545 & 0, 0\% & 7885, 0.00988572\% \\ \hline
+\textit{Caenorhabditis brenneri} & 190369721 & 0, 0\% & 38619, 0.0202863\% \\ \hline
+\textit{Caenorhabditis briggsae} & 108478526 & 0, 0\% & 7158, 0.00659854\% \\ \hline
+\textit{Caenorhabditis elegans} & 100272607 & 0, 0\% & 5988, 0.00597172\% \\ \hline
+\textit{Caenorhabditis japonica} & 166256191 & 0, 0\% & 41298, 0.02484\% \\ \hline
+\textit{Caenorhabditis sp. 11 MAF-2010} & 79321433 & 0, 0\% & 5899, 0.00743683\% \\ \hline
+\textit{Priapulus caudatus} & 420178403 & 0, 0\% & 179152, 0.0426371\% \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{PLATYHELMINTHES}} \\ \hline
+\textit{Schistosoma curassoni} & 344202215 & 0, 0\% & 63816, 0.0185403\% \\ \hline
+\textit{Schistosoma haematobium} & 375894156 & 0, 0\% & 42415, 0.0112838\% \\ \hline
+\textit{Schistosoma japonicum} & 402743189 & 0, 0\% & 94449, 0.0234514\% \\ \hline
+\textit{Schistosoma mansoni} & 364518427 & 0, 0\% & 18207, 0.00499481\% \\ \hline
+\textit{Schistosoma margrebowiei} & 367396528 & 0, 0\% & 30287, 0.00824368\% \\ \hline
+\textit{Schistosoma mattheei} & 340818150 & 0, 0\% & 52043, 0.01527\% \\ \hline
+\textit{Schistosoma rodhaini} & 343294136 & 0, 0\% & 29809, 0.00868322\% \\ \hline
+\textit{Clonorchis sinensis} & 547288241 & 0, 0\% & 137669, 0.0251548\% \\ \hline
+\textit{Echinococcus granulosus} & 112350571 & 0, 0\% & 4822, 0.00429192\% \\ \hline
+\textit{Echinococcus multilocularis} & 7371474 & 0, 0\% & 4135, 0.0560946\% \\ \hline
+\textit{Hymenolepis microstoma} & 126773784 & 0, 0\% & 5297, 0.00417831\% \\ \hline
+\textit{Protopolystoma xenopodis} & 617344661 & 0, 0\% & 28573, 0.00462837\% \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{OTHER}} \\ \hline
+\textit{Callorhinchus milii} & 974481817 & 0, 0\% & 96001, 0.00985149\% \\ \hline
+\textit{Carcharhinus brachyurus} & 2832541493 & 0, 0\% & 1383347, 0.0488377\% \\ \hline
+\textit{Lytechinus variegatus} & 951759914 & 4192, 0.000440447\% & 1562525, 0.164172\% \\ \hline
+\textit{Strongylocentrotus purpuratus} & 936564995 & 55567, 0.00593306\% & 2699297, 0.288212\% \\ \hline
+\textit{Patiria miniata} & 811028858 & 0, 0\% & 350468, 0.0432128\% \\ \hline
+\textit{Saccoglossus kowalevskii} & 775840678 & 0, 0\% & 2440029, 0.314501\% \\ \hline
+\textit{Ciona intestinalis} & 115212710 & 0, 0\% & 78094, 0.0677825\% \\ \hline
+\textit{Ciona savignyi} & 587352817 & 29071, 0.0049495\% & 4044971, 0.688678\% \\ \hline
+\textit{Botryllus schlosseri} & 579633380 & 0, 0\% & 1256055, 0.216698\% \\ \hline
+\textit{Oikopleura dioica} & 70471451 & 0, 0\% & 5276, 0.00748672\% \\ \hline
+\textit{Branchiostoma floridae} & 521895125 & 0, 0\% & 884348, 0.169449\% \\ \hline
+\textit{Lethenteron camtschaticum} & 1030662718 & 27180, 0.00263714\% & 1011092, 0.0981012\% \\ \hline
+\textit{Petromyzon marinus} & 885550958 & 0, 0\% & 680080, 0.0767974\% \\ \hline
+\textit{Latimeria chalumnae} & 2860591921 & 113934, 0.00398288\% & 14770485, 0.516344\% \\ \hline
+\textit{Adineta vaga} & 217933776 & 32135, 0.0147453\% & 44968, 0.0206338\% \\ \hline
+\textit{Capitella teleta} & 333283208 & 9147, 0.00274451\% & 17739, 0.0053225\% \\ \hline
+\textit{Helobdella robusta} & 235376169 & 139023, 0.0590642\% & 400522, 0.170163\% \\ \hline
+\textit{Crassostrea gigas} & 557717710 & 0, 0\% & 1746428, 0.313138\% \\ \hline
+\textit{Lottia gigantea} & 359505668 & 0, 0\% & 628379, 0.17479\% \\ \hline
+\textit{Aplysia californica} & 927296314 & 0, 0\% & 645572, 0.0696187\% \\ \hline
+\textit{Biomphalaria glabrata} & 916374414 & 0, 0\% & 335123, 0.0365705\% \\ \hline
+\textit{Nematostella vectensis} & 356613585 & 0, 0\% & 186002, 0.0521579\% \\ \hline
+\textit{Hydra vulgaris} & 852155112 & 0, 0\% & 1764624, 0.207078\% \\ \hline
+\textit{Mnemiopsis leidyi} & 155865547 & 0, 0\% & 60221, 0.0386365\% \\ \hline
+\textit{Trichoplax adhaerens} & 105631681 & 0, 0\% & 0, 0\% \\ \hline
+\textit{Amphimedon queenslandica} & 166679601 & 0, 0\% & 7730, 0.00463764\% \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{FUNGI}} \\ \hline
+\textit{Coprinopsis cinerea} & 36192590 & 0, 0\% & 7417, 0.0204931\% \\ \hline
+\textit{Agaricus bisporus var. burnettii} & 32614392 & 0, 0\% & 31084, 0.0953076\% \\ \hline
+\textit{Agaricus bisporus var. bisporus} & 30233745 & 0, 0\% & 28062, 0.0928168\% \\ \hline
+\textit{Laccaria bicolor} & 64877444 & 0, 0\% & 4236, 0.00652923\% \\ \hline
+\textit{Schizophyllum commune} & 38482026 & 0, 0\% & 5965, 0.0155007\% \\ \hline
+\textit{Moniliophthora roreri} & 52204869 & 0, 0\% & 4106, 0.00786517\% \\ \hline
+\textit{Serpula lacrymans} & 42797233 & 0, 0\% & 0, 0\% \\ \hline
+\textit{Coniophora puteana} & 42968544 & 0, 0\% & 15013, 0.0349395\% \\ \hline
+\textit{Heterobasidion irregulare} & 33649967 & 0, 0\% & 10227, 0.0303923\% \\ \hline
+\textit{Stereum hirsutum} & 46511623 & 0, 0\% & 11201, 0.0240822\% \\ \hline
+\textit{Dichomitus squalens} & 42748430 & 0, 0\% & 10461, 0.0244711\% \\ \hline
+\textit{Trametes versicolor} & 44794008 & 0, 0\% & 90802, 0.20271\% \\ \hline
+\textit{Fibroporia radiculosa} & 28378039 & 0, 0\% & 770, 0.00271337\% \\ \hline
+\textit{Phanerochaete carnosa} & 46293325 & 0, 0\% & 18096, 0.0390899\% \\ \hline
+\textit{Postia placenta} & 90891856 & 0, 0\% & 8820, 0.00970384\% \\ \hline
+\textit{Gloeophyllum trabeum} & 37178225 & 0, 0\% & 20507, 0.0551586\% \\ \hline
+\textit{Punctularia strigosozonata} & 34171901 & 0, 0\% & 44534, 0.130323\% \\ \hline
+\textit{Fomitiporia mediterranea} & 63354419 & 0, 0\% & 1142, 0.00180256\% \\ \hline
+\textit{Auricularia subglabra} & 74920202 & 0, 0\% & 195051, 0.260345\% \\ \hline
+\textit{Malassezia sympodialis} & 7669689 & 0, 0\% & 3964, 0.051684\% \\ \hline
+\textit{Ustilago maydis} & 19664356 & 0, 0\% & 2996, 0.0152357\% \\ \hline
+\textit{Puccinia graminis} & 88724376 & 0, 0\% & 752, 0.000847569\% \\ \hline
+\textit{Melampsora larici-populina} & 101129028 & 0, 0\% & 10131, 0.0100179\% \\ \hline
+\textit{Rhodotorula toruloides} & 20223942 & 0, 0\% & 2537, 0.0125445\% \\ \hline
+\textit{Dactylellina haptotyla} & 39531920 & 0, 0\% & 1802, 0.00455834\% \\ \hline
+\textit{Tuber melanosporum} & 124945702 & 0, 0\% & 2089, 0.00167193\% \\ \hline
+\textit{Talaromyces atroroseus} & 30858562 & 0, 0\% & 1589, 0.0051493\% \\ \hline
+\textit{Talaromyces stipitatus} & 35685443 & 0, 0\% & 6125, 0.0171639\% \\ \hline
+\textit{Ajellomyces dermatitidis} & 75404732 & 0, 0\% & 24833, 0.0329329\% \\ \hline
+\textit{Histoplasma capsulatum} & 33030326 & 0, 0\% & 1442, 0.00436569\% \\ \hline
+\textit{Arthroderma otae} & 23263091 & 0, 0\% & 318, 0.00136697\% \\ \hline
+\textit{Coccidioides immitis} & 29016019 & 0, 0\% & 3321, 0.0114454\% \\ \hline
+\textit{Paracoccidioides brasiliensis} & 29952540 & 0, 0\% & 1357, 0.0045305\% \\ \hline
+\textit{Uncinocarpus reesii} & 22349738 & 0, 0\% & 1552, 0.00694415\% \\ \hline
+\textit{Endocarpon pusillum} & 37130611 & 0, 0\% & 2963, 0.00797994\% \\ \hline
+\textit{Pseudogymnoascus destructans} & 30684937 & 0, 0\% & 5229, 0.0170409\% \\ \hline
+\textit{Beauveria bassiana} & 33697794 & 0, 0\% & 1795, 0.00532676\% \\ \hline
+\textit{Fusarium oxysporum} & 61386934 & 0, 0\% & 5556, 0.00905079\% \\ \hline
+\textit{Fusarium verticillioides} & 41844914 & 0, 0\% & 1292, 0.00308759\% \\ \hline
+\textit{Colletotrichum gloeosporioides} & 55607143 & 0, 0\% & 1235, 0.00222094\% \\ \hline
+\textit{Colletotrichum higginsianum} & 50716103 & 0, 0\% & 4418, 0.00871124\% \\ \hline
+\textit{Colletotrichum orchidophilum} & 48556462 & 0, 0\% & 2174, 0.00447726\% \\ \hline
+\textit{Thermothelomyces thermophila} & 38744216 & 0, 0\% & 1081, 0.00279009\% \\ \hline
+\textit{Thielavia terrestris} & 36912256 & 0, 0\% & 3957, 0.01072\% \\ \hline
+\textit{Sordaria macrospora} & 39955017 & 0, 0\% & 1025, 0.00256538\% \\ \hline
+\textit{Pseudocercospora fijiensis} & 74141167 & 0, 0\% & 18239, 0.0246004\% \\ \hline
+\textit{Sphaerulina musiva} & 29352103 & 0, 0\% & 1589, 0.00541358\% \\ \hline
+\textit{Zymoseptoria tritici} & 39686251 & 0, 0\% & 7312, 0.0184245\% \\ \hline
+\textit{Parastagonospora nodorum} & 37213987 & 0, 0\% & 3811, 0.0102408\% \\ \hline
+\textit{Leptosphaeria maculans} & 45124619 & 0, 0\% & 20091, 0.0445234\% \\ \hline
+\textit{Metschnikowia bicuspidata} & 16055203 & 0, 0\% & 1926, 0.0119961\% \\ \hline
+\textit{Scheffersomyces stipitis} & 15441179 & 0, 0\% & 70712, 0.457944\% \\ \hline
+\textit{Candida albicans} & 14282666 & 0, 0\% & 10100, 0.0707151\% \\ \hline
+\textit{Candida auris} & 12498763 & 0, 0\% & 2327, 0.0186178\% \\ \hline
+\textit{Candida dubliniensis} & 14618422 & 0, 0\% & 33605, 0.229881\% \\ \hline
+\textit{Candida tanzawaensis} & 13136204 & 0, 0\% & 1844, 0.0140375\% \\ \hline
+\textit{Wickerhamomyces anomalus} & 14145566 & 0, 0\% & 5054, 0.0357285\% \\ \hline
+\textit{Wickerhamomyces ciferrii} & 15901152 & 0, 0\% & 13860, 0.0871635\% \\ \hline
+\textit{Yarrowia lipolytica} & 20550897 & 0, 0\% & 84838, 0.412819\% \\ \hline
+\textit{Saitoella complicata} & 14136186 & 0, 0\% & 2291, 0.0162066\% \\ \hline
+\textit{Phycomyces blakesleeanus} & 53939167 & 0, 0\% & 335552, 0.622093\% \\ \hline
+\textit{Rhizopus microsporus} & 25972395 & 0, 0\% & 45192, 0.174\% \\ \hline
+\textit{Lobosporangium transversale} & 42768949 & 0, 0\% & 35232, 0.0823775\% \\ \hline
+\textit{Nosema ceranae} & 7860219 & 0, 0\% & 912, 0.0116027\% \\ \hline
+
+\multicolumn{4}{|l|}{\textbf{VIRIDIPLANTAE}} \\ \hline
+\textit{Chlamydomonas reinhardtii} & 120185366 & 0, 0\% & 606792, 0.50488\% \\ \hline
+\textit{Volvox carteri f. nagariensis} & 137684403 & 0, 0\% & 396743, 0.288154\% \\ \hline
+\textit{Chlorella variabilis} & 46159512 & 0, 0\% & 12154, 0.0263304\% \\ \hline
+\textit{Coccomyxa subellipsoidea C-169} & 48826616 & 0, 0\% & 342720, 0.701912\% \\ \hline
+\textit{Klebsormidium flaccidum} & 103921766 & 0, 0\% & 14535, 0.0139865\% \\ \hline
+\textit{Physcomitrella patens} & 479985347 & 0, 0\% & 209444, 0.0436355\% \\ \hline
+\textit{Selaginella moellendorffii} & 212315224 & 0, 0\% & 432326, 0.203625\% \\ \hline
+\textit{Pinus taeda} & 265480119 & 0, 0\% & 3355235, 1.26384\% \\ \hline
+\textit{Amborella trichopoda} & 706332640 & 0, 0\% & 10079924, 1.42708\% \\ \hline
+\textit{Spirodela polyrhiza} & 132009443 & 0, 0\% & 217054, 0.164423\% \\ \hline
+\textit{Phoenix dactylifera} & 555607186 & 0, 0\% & 4794765, 0.862977\% \\ \hline
+\textit{Elaeis oleifera} & 1402725009 & 0, 0\% & 4644120, 0.331078\% \\ \hline
+\textit{Ensete ventricosum} & 172241963 & 0, 0\% & 45089, 0.0261777\% \\ \hline
+\textit{Musa acuminata subsp. malaccensis} & 472235617 & 0, 0\% & 861006, 0.182326\% \\ \hline
+\textit{Sorghum bicolor} & 738540932 & 0, 0\% & 6065256, 0.821248\% \\ \hline
+\textit{Zea mays} & 2066912289 & 0, 0\% & 9490541, 0.459165\% \\ \hline
+\textit{Setaria italica} & 405737341 & 0, 0\% & 4216652, 1.03926\% \\ \hline
+\textit{Brachypodium distachyon} & 271923306 & 0, 0\% & 4154965, 1.52799\% \\ \hline
+\textit{Leersia perrieri} & 266687832 & 0, 0\% & 2368362, 0.888065\% \\ \hline
+\textit{Oryza barthii} & 308272304 & 0, 0\% & 2043982, 0.663044\% \\ \hline
+\textit{Oryza brachyantha} & 259907595 & 0, 0\% & 570749, 0.219597\% \\ \hline
+\textit{Oryza glumipatula} & 372860283 & 0, 0\% & 1891897, 0.507401\% \\ \hline
+\textit{Oryza longistaminata} & 326442508 & 0, 0\% & 1729078, 0.529673\% \\ \hline
+\textit{Oryza meridionalis} & 335668232 & 0, 0\% & 1621453, 0.483052\% \\ \hline
+\textit{Oryza nivara} & 337950324 & 0, 0\% & 2024556, 0.599069\% \\ \hline
+\textit{Oryza punctata} & 393816603 & 0, 0\% & 1970705, 0.500412\% \\ \hline
+\textit{Oryza sativa Japonica group} & 382150945 & 0, 0\% & 2353016, 0.615729\% \\ \hline
+\textit{Zizania latifolia} & 603989347 & 0, 0\% & 2151532, 0.35622\% \\ \hline
+\textit{Aegilops tauschii} & 3313650219 & 0, 0\% & 21648619, 0.653316\% \\ \hline
+\textit{Triticum urartu} & 3747047519 & 0, 0\% & 21997415, 0.58706\% \\ \hline
+\textit{Nelumbo nucifera} & 804484421 & 0, 0\% & 19049323, 2.36789\% \\ \hline
+\textit{Lupinus angustifolius} & 523297923 & 0, 0\% & 3311489, 0.632811\% \\ \hline
+\textit{Phaseolus vulgaris} & 521076696 & 0, 0\% & 5674591, 1.08901\% \\ \hline
+\textit{Cajanus cajan} & 510809477 & 0, 0\% & 1658557, 0.324692\% \\ \hline
+\textit{Vigna angularis var. angularis} & 291823841 & 0, 0\% & 58656, 0.0200998\% \\ \hline
+\textit{Vigna radiata var. radiata} & 463085359 & 0, 0\% & 91202, 0.0196944\% \\ \hline
+\textit{Glycine max} & 973224514 & 0, 0\% & 7291899, 0.749251\% \\ \hline
+\textit{Glycine soja} & 863568428 & 0, 0\% & 5855382, 0.678045\% \\ \hline
+\textit{Cicer arietinum} & 530768543 & 0, 0\% & 864712, 0.162917\% \\ \hline
+\textit{Medicago truncatula} & 314353944 & 0, 0\% & 2757877, 0.877316\% \\ \hline
+\textit{Trifolium pratense} & 304979311 & 0, 0\% & 1723289, 0.565051\% \\ \hline
+\textit{Lotus japonicus} & 147812252 & 0, 0\% & 1521949, 1.02965\% \\ \hline
+\textit{Malus x domestica} & 526197889 & 0, 0\% & 2239129, 0.42553\% \\ \hline
+\textit{Pyrus x bretschneideri} & 508550595 & 0, 0\% & 2367713, 0.465581\% \\ \hline
+\textit{Prunus mume} & 233872527 & 0, 0\% & 1080390, 0.461957\% \\ \hline
+\textit{Prunus persica} & 227251827 & 0, 0\% & 977650, 0.430206\% \\ \hline
+\textit{Fragaria iinumae} & 199627509 & 0, 0\% & 848595, 0.425089\% \\ \hline
+\textit{Fragaria nubicola} & 203686407 & 0, 0\% & 852989, 0.418776\% \\ \hline
+\textit{Fragaria orientalis} & 214184023 & 0, 0\% & 861282, 0.402122\% \\ \hline
+\textit{Fragaria vesca subsp. vesca} & 214217322 & 0, 0\% & 1330049, 0.620888\% \\ \hline
+\textit{Fragaria x ananassa} & 173229572 & 0, 0\% & 576965, 0.333064\% \\ \hline
+\textit{Morus notabilis} & 320378613 & 0, 0\% & 540366, 0.168665\% \\ \hline
+\textit{Cannabis sativa} & 757438891 & 0, 0\% & 7007555, 0.925164\% \\ \hline
+\textit{Castanea mollissima} & 833240550 & 0, 0\% & 7968700, 0.95635\% \\ \hline
+\textit{Betula nana} & 564011153 & 0, 0\% & 4178216, 0.740804\% \\ \hline
+\textit{Cucumis melo} & 374772472 & 0, 0\% & 1244169, 0.33198\% \\ \hline
+\textit{Cucumis sativus} & 242977439 & 0, 0\% & 799120, 0.328887\% \\ \hline
+\textit{Citrullus lanatus} & 321046825 & 0, 0\% & 1165484, 0.363026\% \\ \hline
+\textit{Lagenaria siceraria} & 176727258 & 0, 0\% & 507954, 0.287423\% \\ \hline
+\textit{Populus euphratica} & 495875768 & 0, 0\% & 1763571, 0.355648\% \\ \hline
+\textit{Populus trichocarpa} & 417129638 & 0, 0\% & 1895269, 0.45436\% \\ \hline
+\textit{Jatropha curcas} & 318363250 & 0, 0\% & 1992515, 0.625862\% \\ \hline
+\textit{Manihot esculenta subsp. flabellifolia} & 390835892 & 0, 0\% & 1771302, 0.453209\% \\ \hline
+\textit{Ricinus communis} & 350458699 & 0, 0\% & 664578, 0.189631\% \\ \hline
+\textit{Linum usitatissimum} & 282201865 & 0, 0\% & 2053058, 0.727514\% \\ \hline
+\textit{Eucalyptus camaldulensis} & 654922307 & 0, 0\% & 5906037, 0.901792\% \\ \hline
+\textit{Eucalyptus grandis} & 691269672 & 0, 0\% & 10125615, 1.46479\% \\ \hline
+\textit{Carica papaya} & 369781828 & 0, 0\% & 2516437, 0.680519\% \\ \hline
+\textit{Arabidopsis halleri subsp. gemmifera} & 221139660 & 0, 0\% & 2629722, 1.18917\% \\ \hline
+\textit{Arabidopsis lyrata subsp. lyrata} & 206667935 & 0, 0\% & 3211589, 1.55399\% \\ \hline
+\textit{Arabidopsis thaliana} & 119146348 & 0, 0\% & 907867, 0.761976\% \\ \hline
+\textit{Camelina sativa} & 641356059 & 0, 0\% & 13704182, 2.13675\% \\ \hline
+\textit{Capsella rubella} & 133063876 & 0, 0\% & 1196138, 0.89892\% \\ \hline
+\textit{Brassica napus} & 930121500 & 0, 0\% & 19061867, 2.0494\% \\ \hline
+\textit{Brassica rapa} & 283975909 & 0, 0\% & 5186525, 1.8264\% \\ \hline
+\textit{Brassica oleracea var. oleracea} & 488593889 & 0, 0\% & 10794431, 2.20928\% \\ \hline
+\textit{Raphanus raphanistrum subsp. raphanistrum} & 253833977 & 0, 0\% & 3953706, 1.5576\% \\ \hline
+\textit{Raphanus sativus} & 341476849 & 0, 0\% & 6558491, 1.92063\% \\ \hline
+\textit{Aethionema arabicum} & 192487774 & 0, 0\% & 2497220, 1.29734\% \\ \hline
+\textit{Arabis alpina} & 308032609 & 0, 0\% & 6413649, 2.08213\% \\ \hline
+\textit{Eutrema parvulum} & 137073209 & 0, 0\% & 1218003, 0.888578\% \\ \hline
+\textit{Eutrema salsugineum} & 243110105 & 0, 0\% & 3730545, 1.53451\% \\ \hline
+\textit{Sisymbrium irio} & 245550082 & 0, 0\% & 3420058, 1.39281\% \\ \hline
+\textit{Leavenworthia alabamica} & 173431618 & 0, 0\% & 1145977, 0.660766\% \\ \hline
+\textit{Tarenaya hassleriana} & 249929577 & 0, 0\% & 898531, 0.359514\% \\ \hline
+\textit{Gossypium arboreum} & 1560831891 & 0, 0\% & 5673504, 0.363492\% \\ \hline
+\textit{Gossypium raimondii} & 761405269 & 0, 0\% & 6287854, 0.825822\% \\ \hline
+\textit{Theobroma cacao} & 345993675 & 0, 0\% & 2489010, 0.71938\% \\ \hline
+\textit{Aquilaria agallochum} & 726710453 & 0, 0\% & 2696090, 0.370999\% \\ \hline
+\textit{Azadirachta indica} & 261457759 & 0, 0\% & 450277, 0.172218\% \\ \hline
+\textit{Citrus clementina} & 301364702 & 0, 0\% & 2772560, 0.920002\% \\ \hline
+\textit{Citrus sinensis} & 327669411 & 0, 0\% & 2960816, 0.903599\% \\ \hline
+\textit{Vitis vinifera} & 485326422 & 0, 0\% & 10020983, 2.06479\% \\ \hline
+\textit{Amaranthus hypochondriacus} & 502147592 & 0, 0\% & 1858411, 0.370093\% \\ \hline
+\textit{Amaranthus tuberculatus} & 4347977 & 0, 0\% & 47856, 1.10065\% \\ \hline
+\textit{Beta vulgaris subsp. vulgaris} & 566198563 & 0, 0\% & 14816651, 2.61686\% \\ \hline
+\textit{Spinacia oleracea} & 474077292 & 0, 0\% & 4811255, 1.01487\% \\ \hline
+\textit{Dianthus caryophyllus} & 567661845 & 0, 0\% & 3994415, 0.703661\% \\ \hline
+\textit{Actinidia chinensis} & 604217145 & 0, 0\% & 1447675, 0.239595\% \\ \hline
+\textit{Vaccinium macrocarpon} & 414621889 & 0, 0\% & 2174742, 0.524512\% \\ \hline
+\textit{Diospyros lotus} & 1104189 & 0, 0\% & 3332, 0.30176\% \\ \hline
+\textit{Primula veris} & 309692940 & 0, 0\% & 1089758, 0.351883\% \\ \hline
+\textit{Solanum arcanum} & 665186956 & 0, 0\% & 5259355, 0.790658\% \\ \hline
+\textit{Solanum habrochaites} & 724284658 & 0, 0\% & 5928289, 0.818503\% \\ \hline
+\textit{Solanum lycopersicum} & 781353311 & 0, 0\% & 5086040, 0.650927\% \\ \hline
+\textit{Solanum melongena} & 833080760 & 0, 0\% & 5215063, 0.625997\% \\ \hline
+\textit{Solanum pennellii} & 720458090 & 0, 0\% & 5173838, 0.718132\% \\ \hline
+\textit{Solanum pimpinellifolium} & 688247059 & 0, 0\% & 5291330, 0.768813\% \\ \hline
+\textit{Solanum tuberosum} & 705779115 & 0, 0\% & 7014366, 0.993847\% \\ \hline
+\textit{Capsicum annuum} & 3063642317 & 0, 0\% & 18450182, 0.60223\% \\ \hline
+\textit{Nicotiana sylvestris} & 2221831232 & 0, 0\% & 12836977, 0.577766\% \\ \hline
+\textit{Nicotiana tomentosiformis} & 1688312294 & 0, 0\% & 9735272, 0.576627\% \\ \hline
+\textit{Fraxinus excelsior} & 875243685 & 0, 0\% & 2738111, 0.31284\% \\ \hline
+\textit{Penstemon centranthifolius} & 4471593 & 0, 0\% & 24561, 0.549267\% \\ \hline
+\textit{Penstemon grinnellii} & 3663524 & 0, 0\% & 14843, 0.405156\% \\ \hline
+\textit{Sesamum indicum} & 274906174 & 0, 0\% & 4526917, 1.64671\% \\ \hline
+\textit{Genlisea aurea} & 43357795 & 0, 0\% & 124160, 0.286361\% \\ \hline
+\textit{Mimulus guttatus} & 321641293 & 0, 0\% & 2116247, 0.657953\% \\ \hline
+\textit{Conyza canadensis} & 326165195 & 0, 0\% & 1471338, 0.451102\% \\ \hline
+
+\end{longtable}}
+%\end{center}
+\clearpage
