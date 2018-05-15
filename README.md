@@ -4,9 +4,9 @@ Code used to infer and filter horizontal transfer events involving L1 and BovB r
 
 Also available on Zenodo:
 
-Atma M Ivancevic. (2018, May 15). AdelaideBioinfo/horizontalTransfer: First release of horizontal transfer code (Version v1.0.0). Zenodo. http://doi.org/10.5281/zenodo.1246999
+- Atma M Ivancevic. (2018, May 15). AdelaideBioinfo/horizontalTransfer: First release of horizontal transfer code (Version v1.0.0). Zenodo. http://doi.org/10.5281/zenodo.1246999
 
-Ivancevic, Atma M, Kortschak, R Daniel, Bertozzi, Terry, & Adelson, David L. (2018). Dataset from: Horizontal transfer of BovB and L1 retrotransposons in eukaryotes [Data set]. Zenodo. http://doi.org/10.5281/zenodo.1246946
+- Ivancevic, Atma M, Kortschak, R Daniel, Bertozzi, Terry, & Adelson, David L. (2018). Dataset from: Horizontal transfer of BovB and L1 retrotransposons in eukaryotes [Data set]. Zenodo. http://doi.org/10.5281/zenodo.1246946
 
 #### Recommended programs
 - BLAST (https://blast.ncbi.nlm.nih.gov/Blast.cgi)
