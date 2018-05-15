@@ -23,7 +23,7 @@ Code used to infer and filter horizontal transfer events in eukaryotes. Queries 
 - Some level of familiarity with queuing systems (SLURM)
 
 #### Scripts and test genome
-A test genome (fungus *Yarrowia lipolytica*) has been placed in [genomes/fungi/Yarrowia.lipolytica](genomes/fungi/Yarrowia.lipolytica). We recommend trying out the workflow below on this genome first. Intermediate files for each step can be found in [results/L1](results/L1), to help with troubleshooting. Analysis scripts are provided in [scripts](scripts). LaTeX files for the Additional Files are provided in [latex](latex).
+A test genome (fungus *Yarrowia lipolytica*) has been placed in [genomes/fungi/Yarrowia.lipolytica](genomes/fungi/Yarrowia.lipolytica). We recommend trying out the workflow below on this genome first. Intermediate files for each step can be found in [results/L1](results/L1), to help with troubleshooting. Analysis scripts are provided in [scripts](scripts). LaTeX files for the Additional Files (Supp Tables and Figures) are provided in [latex](latex).
 
 ## Workflow
 
