@@ -105,7 +105,7 @@ SPECIES=Yarrowia.lipolytica ELEMENT=L1 LASTZFILE=/data/rc003/atma/horizontalTran
 - FILE is the combined fasta file
 - RESULTSDIR is the directory that you want the CENSOR output to go in
 
-E.g. to run the CENSOR on all L1 hits from fungal genome *Yarrowia lipolytica*:
+E.g. to run CENSOR on all L1 hits from fungal genome *Yarrowia lipolytica*:
 ```
 DIR=/data/rc003/atma/horizontalTransfer/results/L1/combined FILE=Yarrowia.lipolytica_L1_combined.fasta RESULTSDIR=/data/rc003/atma/horizontalTransfer/results/L1/censored sbatch censorSequences.q
 ```
