@@ -179,7 +179,7 @@ For each genome, used [usearchCluster.q](scripts/usearchCluster.q) to cluster al
 
 ### 4) Clustering of nucleotide BovB sequences from bats and frogs
 
-As above, concatenated all frog and bat BovB sequences; then used [usearchSortByLength.q](scripts/usearchSortByLength.q) to sort by sequence length (min 2kb, max 4kb); then used [usearchCluster.q](scripts/usearchCluster.q) to cluster the sequences; and [alignRefineAndTree.q](scripts/alignRefineAndTree.q) to align and infer a phylogeny. 
+As above, concatenated all frog and bat BovB sequences; then used [usearchSortByLength.q](scripts/usearchSortByLength.q) to sort by sequence length (min 2kb, max 4kb); [usearchCluster.q](scripts/usearchCluster.q) to cluster the sequences; and [alignRefineAndTree.q](scripts/alignRefineAndTree.q) to align and infer a phylogeny. 
 
 ### 5) Extraction of nucleotide ORFs and conserved amino acid residues
 
